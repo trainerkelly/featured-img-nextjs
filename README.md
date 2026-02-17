@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Featured Image Sizing Demonstration (NextJS Version)
 
-## Getting Started
+The NextJS version of [Featured Images Sizes](https://github.com/trainerkelly/Featured-Image-Sizes).
 
-First, run the development server:
+It's demonstrating a solution to bad Featured Image cropping when that Featued Image is used for both vertical and horiztonal (which may not always work).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About the Original Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I had been part of a meeting my job and a part of the discussion was about a poorly positioned Featured Image. There was a length discussion about a solution to the problem.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+While I didn't have one for immediately fixing it, I was pretty clear on a long-term solution.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I wanted to make a demonstration though.
 
-## Learn More
+(This is actually a stripped down version of what I was originally going to do in order to focus on the simulating the features, not actually implementing them.)
 
-To learn more about Next.js, take a look at the following resources:
+### Why Bootstrap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Day job appears to use Bootstrap.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I don't like Bootstrap. 😂
 
-## Deploy on Vercel
+## The NextJS Version
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I was chugging along with the original when I realized that I was either going to need a backend or some sort of state management to make the idea work.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I could do it in plain ol' JavaScript, but it seemed like it would be more efficient to just use React.
+
+I decided NextJS specific because I'm already familiar with it and if I wanted to take advantage of any features (like routing), I can do so.
+
+That's why this respository exists.
