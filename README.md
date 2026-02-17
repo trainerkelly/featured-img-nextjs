@@ -29,3 +29,9 @@ I could do it in plain ol' JavaScript, but it seemed like it would be more effic
 I decided NextJS specific because I'm already familiar with it and if I wanted to take advantage of any features (like routing), I can do so.
 
 That's why this respository exists.
+
+## Technologies
+
+[NextJS](https://nextjs.org/)
+[React Boostrap](https://react-bootstrap.github.io/)
+[React Boostrap Image Cropper](https://github.com/zhaoyao91/react-bootstrap-image-cropper)
