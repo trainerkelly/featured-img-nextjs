@@ -32,6 +32,6 @@ That's why this respository exists.
 
 ## Technologies
 
-[NextJS](https://nextjs.org/)
-[React Boostrap](https://react-bootstrap.github.io/)
-[React Boostrap Image Cropper](https://github.com/zhaoyao91/react-bootstrap-image-cropper)
+- [NextJS](https://nextjs.org/)
+- [React Boostrap](https://react-bootstrap.github.io/)
+- [React Boostrap Image Cropper](https://github.com/zhaoyao91/react-bootstrap-image-cropper)
