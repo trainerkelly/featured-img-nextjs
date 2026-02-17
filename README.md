@@ -6,7 +6,7 @@ It's demonstrating a solution to bad Featured Image cropping when that Featued I
 
 ## About the Original Project
 
-I had been part of a meeting my job and a part of the discussion was about a poorly positioned Featured Image. There was a length discussion about a solution to the problem.
+I had been part of a meeting my job and a part of the discussion was about a poorly positioned Featured Image. There was a lengthy discussion about a solution to the problem.
 
 While I didn't have one for immediately fixing it, I was pretty clear on a long-term solution.
 
