@@ -6,6 +6,8 @@ import {
   NavbarBrand,
   NavbarCollapse,
   NavbarToggle,
+  NavItem,
+  NavLink,
 } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
@@ -20,46 +22,40 @@ export default function Header() {
         >
           <h1 className="fs-4">Featured Image Sizing</h1>
         </NavbarBrand>
-        <Nav>
-          <NavbarToggle>
-            <NavbarCollapse>
-              <ul className="nav nav-pills">
-                <li className="nav-item">
-                  <Link
-                    href="/"
-                    className={`nav-link ${pathname === "/" ? "active" : ""}`}
-                    aria-current="page"
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    href="/crop-resize-only"
-                    className={`nav-link ${pathname === "/crop-resize-only" ? "active" : ""}`}
-                  >
-                    Crop &amp; Resize Only
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    href="/plus-blur"
-                    className={`nav-link ${pathname === "/plus-blur" ? "active" : ""}`}
-                  >
-                    +Blur
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    href="/plus-blur-overlay"
-                    className={`nav-link ${pathname === "/plus-blur-overlay" ? "active" : ""}`}
-                  >
-                    + Blur &amp; Overlay
-                  </Link>
-                </li>
-              </ul>
-            </NavbarCollapse>
-          </NavbarToggle>
+        <Nav className="nav nav-pills">
+          <NavItem className="nav-item">
+            <NavLink
+              href="/"
+              className={`nav-link ${pathname === "/" ? "active" : ""}`}
+              aria-current="page"
+            >
+              Home
+            </NavLink>
+          </NavItem>
+          <NavItem className="nav-item">
+            <NavLink
+              href="/crop-resize-only"
+              className={`nav-link ${pathname === "/crop-resize-only" ? "active" : ""}`}
+            >
+              Crop &amp; Resize Only
+            </NavLink>
+          </NavItem>
+          <NavItem className="nav-item">
+            <NavLink
+              href="/plus-blur"
+              className={`nav-link ${pathname === "/plus-blur" ? "active" : ""}`}
+            >
+              +Blur
+            </NavLink>
+          </NavItem>
+          <NavItem className="nav-item">
+            <NavLink
+              href="/plus-blur-overlay"
+              className={`nav-link ${pathname === "/plus-blur-overlay" ? "active" : ""}`}
+            >
+              + Blur &amp; Overlay
+            </NavLink>
+          </NavItem>
         </Nav>
       </header>
     </Container>
